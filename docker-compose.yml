@@ -1,0 +1,7 @@
+version: '3'
+services:
+  koans:
+    image: elixir-koans
+    build: .
+    volumes:
+    - .:/elixir-koans
