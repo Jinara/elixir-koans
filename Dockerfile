@@ -13,3 +13,4 @@ WORKDIR /elixir-koans
 RUN mix deps.get
 RUN apt-get update
 RUN apt-get -y install inotify-tools
+#mix deps.get
